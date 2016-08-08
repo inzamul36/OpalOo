@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Lato';
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+.print-head{
+    display: none;
+}
+
+.heading{
+    background-color: #357EBD;
+    color: #FFF;
+    padding: 0px;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.value{
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.box{
+    margin-top: 30px;
+}
+
+table{
+    width: 100%;
+}
+.id{
+    width: 5%;
+}
+.item{
+    width: 75%;
+}
+.price{
+    width: 16%;
+}
+
+.sign{
+    border-top: 1px solid;
+    margin-top: 30px;
+    width: 60%;
+    text-align: center;
+}
+.amount{
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.hide-print{
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media print {
+
+    .print-page{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .print-head{
+        display: block;
+        border-bottom: 1px solid;
+    }
+
+    .logo img{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .title{
+        margin-left: -10px;
+    }
+    .title h3{
+        font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+        font-size: 35px;
+    }
+
+    .hide-print{
+        display: none;
+    }
+}
